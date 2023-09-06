@@ -12,6 +12,7 @@ class Repository extends CategoryRepository {
 
   Repository(this._name);
 
+  @override
   dynamic noSuchMethod(Invocation invocation) {
     var column = MirrorSystem.getName(invocation.memberName);
     var value = invocation.positionalArguments.first;
