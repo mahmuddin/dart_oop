@@ -1,10 +1,9 @@
-
-abstract class Location{
+abstract class Location {
   String? name;
 }
 
 class City extends Location {
-  City(String name){
+  City(String name) {
     this.name = name;
   }
 }

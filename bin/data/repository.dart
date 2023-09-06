@@ -1,4 +1,3 @@
-
 import 'dart:mirrors';
 
 abstract class CategoryRepository {
@@ -9,7 +8,6 @@ abstract class CategoryRepository {
 }
 
 class Repository extends CategoryRepository {
-
   final String _name;
 
   Repository(this._name);
@@ -20,5 +18,4 @@ class Repository extends CategoryRepository {
     var sql = "select * from $_name where $column = '$value'";
     print(sql);
   }
-
 }

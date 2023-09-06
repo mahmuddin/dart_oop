@@ -1,8 +1,6 @@
-
-
 import 'data/product.dart';
 
-void main(){
+void main() {
   var product = Product();
   product.id = '1';
   product.name = 'Laptop';

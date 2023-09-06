@@ -1,7 +1,6 @@
-
 import 'data/repository.dart';
 
-void main(){
+void main() {
   var repository = Repository('products');
 
   repository.id('1');
